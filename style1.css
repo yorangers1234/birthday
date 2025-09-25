@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url('September1_20250925_103155_0000.png') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.para
+{
+    color: wheat;
+    font-size: x-large;
+}
+
+.card-container {
+  display: flex;
+  gap: 80px;
+  padding: 190px;
+  justify-items: center;
+  align-items: center;
+  
+}
+
+.card {
+
+  width: 200px;
+  text-align: center;
+  align-items: center;
+  
+}
+
+.card_img 
+{
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  position: relative;}
+
